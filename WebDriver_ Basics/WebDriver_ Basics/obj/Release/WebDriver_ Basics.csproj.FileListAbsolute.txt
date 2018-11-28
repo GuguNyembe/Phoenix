@@ -1,0 +1,17 @@
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\NUnit3.TestAdapter.dll
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\NUnit3.TestAdapter.pdb
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\nunit.engine.dll
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\nunit.engine.api.dll
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\Mono.Cecil.dll
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\WebDriver_ Basics.exe
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\WebDriver_ Basics.pdb
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\nunit.framework.dll
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\WebDriver.dll
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\nunit.framework.pdb
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\nunit.framework.xml
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Release\WebDriver.xml
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\obj\Release\WebDriver_ Basics.csproj.CoreCompileInputs.cache
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\obj\Release\WebDriver_ Basics.csproj.CopyComplete
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\obj\Release\WebDriver_ Basics.exe
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\obj\Release\WebDriver_ Basics.pdb
+C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\obj\Release\WebDriver_ Basics.csprojAssemblyReference.cache
