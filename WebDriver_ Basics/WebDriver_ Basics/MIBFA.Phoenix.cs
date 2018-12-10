@@ -25,8 +25,8 @@ namespace WebDriver__Basics
         public static void Main(string[] args)
 
         {
-            //Console.WriteLine(args[0]);
-            // launch firefox 
+            ////Console.WriteLine(args[0]);
+            // //launch firefox 
 
             IWebDriver driver = new FirefoxDriver();
             String firmNumber = "5M22520";           
@@ -40,79 +40,114 @@ namespace WebDriver__Basics
             autoIt.Send("{TAB}");
             autoIt.Send("{ENTER}");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-           // Console.WriteLine("Testing");
+           ////Console.WriteLine("Testing");
+           ///
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
             IWebElement dataCapture = driver.FindElement(By.Id("ui-id-1"));
             dataCapture.Click();
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+            //IWebElement dataCaptureLink = driver.FindElement(By.LinkText("Documents To Capture"));
+            //dataCaptureLink.Click();
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+            //IWebElement documentCapture = driver.FindElement(By.CssSelector(".c-datagrid-body > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(3)"));
+            //documentCapture.Click();
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+            //IWebElement firmNumberField = driver.FindElement(By.Name("SearchFirmName"));
+            //firmNumberField.SendKeys(firmNumber);
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            ////// Key down functionality-------
+
+            //IWebElement dropDown = driver.FindElement(By.CssSelector("#ui-id-26"));
+            //dropDown.Click();
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //SelectElement oSelect = new SelectElement(driver.FindElement(By.CssSelector("#SelectedYear")));
+            //oSelect.SelectByText("2018");
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //IWebElement periodMonth = driver.FindElement(By.CssSelector("#SelectedMonth"));
+            //periodMonth.Click();
+
+            //new SelectElement(driver.FindElement(By.CssSelector("#SelectedMonth"))).SelectByText("10");
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //new SelectElement(driver.FindElement(By.CssSelector("#SelectedPayday"))).SelectByText("Thursday");
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //IWebElement checkBox = driver.FindElement(By.CssSelector("#ReturnsTypes_1__isSelected"));
+            //checkBox.Click();
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //IWebElement detailsTab = driver.FindElement(By.CssSelector("#ui-id-23"));
+            //detailsTab.Click();
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //IWebElement MIPFfield = driver.FindElement(By.CssSelector("#CaptureModel_NewReturnTypes_0__FundList_0__Value"));
+            //////MIPFfield.Click();
+            //MIPFfield.Clear();
+            //MIPFfield.SendKeys("150");
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //IWebElement EIPFfield = driver.FindElement(By.CssSelector("#CaptureModel_NewReturnTypes_0__FundList_1__Value"));
+            //////EIPFfield.Click();
+            //EIPFfield.Clear();
+            //EIPFfield.SendKeys("280");
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //IWebElement Total = driver.FindElement(By.CssSelector("#ReturnFundTotal_2"));
+            //Total.Clear();
+            //Total.SendKeys("430");
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //driver.FindElement(By.CssSelector("#CaptureDocumentButton")).Click();
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
+
+            //driver.FindElement(By.CssSelector("button.btn:nth-child(1)")).Click();
+            
+            //////driver.FindElement(By.CssSelector("button.btn:nth-child(2)")).Click();
+
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-            IWebElement dataCaptureLink = driver.FindElement(By.LinkText("Documents To Capture"));
-            dataCaptureLink.Click();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-            IWebElement documentCapture = driver.FindElement(By.CssSelector(".c-datagrid-body > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(3)"));
-            documentCapture.Click();
+            IWebElement CaptureDocumentLink = driver.FindElement(By.LinkText("Captured Documents"));
+            CaptureDocumentLink.Click();
+
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
             IWebElement firmNumberField = driver.FindElement(By.Name("SearchFirmName"));
             firmNumberField.SendKeys(firmNumber);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
 
-            // Key down functionality-------
-
-            IWebElement dropDown = driver.FindElement(By.CssSelector("#ui-id-26"));
+            IWebElement dropDown = driver.FindElement(By.CssSelector("#ui-id-28"));
             dropDown.Click();
 
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
 
-            SelectElement oSelect = new SelectElement(driver.FindElement(By.CssSelector("#SelectedYear")));
-            oSelect.SelectByText("2018");
+            driver.FindElement(By.CssSelector("#firmQuickRange > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > button:nth-child(1)")).Click();
 
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
 
-            IWebElement periodMonth = driver.FindElement(By.CssSelector("#SelectedMonth"));
-            periodMonth.Click();
-
-            new SelectElement(driver.FindElement(By.CssSelector("#SelectedMonth"))).SelectByText("10");
+            driver.FindElement(By.CssSelector("#ReturnTypes_1__isSelected")).Click();
 
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
 
-            new SelectElement(driver.FindElement(By.CssSelector("#SelectedPayday"))).SelectByText("Thursday");
+            driver.FindElement(By.CssSelector("#searchButton")).Click();
 
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
 
-            IWebElement checkBox = driver.FindElement(By.CssSelector("#ReturnsTypes_1__isSelected"));
-            checkBox.Click();
-
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-
-            IWebElement detailsTab = driver.FindElement(By.CssSelector("#ui-id-23"));
-            detailsTab.Click();
-
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-
-            IWebElement MIPFfield = driver.FindElement(By.CssSelector("#CaptureModel_NewReturnTypes_0__FundList_0__Value"));
-            MIPFfield.Clear();
-            MIPFfield.SendKeys("150");
-
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-
-            IWebElement EIPFfield = driver.FindElement(By.CssSelector("#CaptureModel_NewReturnTypes_0__FundList_1__Value"));
-            EIPFfield.Clear();
-            EIPFfield.SendKeys("280");
-
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-
-            IWebElement Total = driver.FindElement(By.CssSelector("#ReturnFundTotal_2"));
-            Total.Clear();
-            Total.SendKeys("430");
-
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-
-            //IWebElement submitButton = driver.FindElement(By.LinkText("#CaptureDocumentButton"));
-            //submitButton.Click();
+            driver.FindElement(By.Id("158720228")).Click();
 
 
         }
 
-            
+
 
 
     }
