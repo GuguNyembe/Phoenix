@@ -38,7 +38,6 @@ C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Debug\Window
 C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Debug\WindowsInput.xml
 C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Debug\WebDriver.Support.dll
 C:\Users\gugun\source\repos\WebDriver_ Basics\WebDriver_ Basics\bin\Debug\WebDriver.Support.xml
-C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\obj\Debug\WebDriver_ Basics.csprojAssemblyReference.cache
 C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\obj\Debug\Interop.AutoItX3Lib.dll
 C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\obj\Debug\WebDriver_ Basics.csproj.ResolveComReference.cache
 C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\obj\Debug\WebDriver_ Basics.csproj.CoreCompileInputs.cache
@@ -78,3 +77,4 @@ C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\bin\
 C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\bin\Debug\WindowsInput.pdb
 C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\bin\Debug\WindowsInput.xml
 C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\obj\Debug\WebDriver_ Basics.csproj.CopyComplete
+C:\Users\gugun\Documents\GitHub\Phoenix\WebDriver_ Basics\WebDriver_ Basics\obj\Debug\WebDriver_ Basics.csprojAssemblyReference.cache
