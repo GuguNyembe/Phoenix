@@ -28,10 +28,6 @@ namespace WebDriver__Basics
         public static void Main(string[] args)
 
         {
-
-            ////Console.WriteLine(args[0]);
-            // //launch firefox              
-
             IWebDriver driver = new FirefoxDriver();
             driver.Navigate().GoToUrl("http://qa.phoenix.resolvesp.com/");
             OpenQA.Selenium.Support.UI.WebDriverWait wait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, new TimeSpan(0, 0, 30));
@@ -42,24 +38,23 @@ namespace WebDriver__Basics
             autoIt.Send("{TAB}");
             autoIt.Send("{ENTER}");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(timeDelay);
-
-        }
+        //}
 
         //[SetUp]
         //public void Initialise()
         //{
-
+           
         //}
 
-        ////Console.WriteLine("Testing");
+        //////Console.WriteLine("Testing");
 
-        ////DOCUMENTS TO CAPTURE TEST 1
-        [Test]
+        //////DOCUMENTS TO CAPTURE TEST 1
+        //[Test]
 
-        public void DataCapture()
+        //public void DataCapture()
 
         
-        {
+        //{
 
 
             String firmNumber = "5M22520";
